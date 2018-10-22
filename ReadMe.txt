@@ -8,26 +8,27 @@ compatible with all the major software platforms.  This project uses a Java impl
 If you want to learn more about cucumber refer to https://cucumber.io/ or https://github.com/cucumber
 
 If you want to view usage instructions with pictures then jump to the following link:
-https://cloudgps.astadia.com/apphub-aws-mp-tee-user-guide
+https://cloudgps.astadia.com/apphub-azure-mp-tee-user-guide
 
 If you want to jump right in and run tests and view reports follow along below:
 
-Option 1: From the Eclipse IDE:
-Click on Eclipse Neon icon and select the demo project “/home/centos/workspace-demo/” (default)  
+Option 1: From the Eclipse IDE: 
+* [user] is the user created at the time of Virtual Machine Creation
+Click on Eclipse Neon icon and select the demo project “/home/[user]/workspace-demo/” (default)  
 
 In the package explorer of the Eclipse IDE:
--	Expand the project “FR-Cucumber, right click on pom.xml and follow the steps below:
+-	Expand the project “Azure-FR-Cucumber-Ubuntu, right click on pom.xml and follow the steps below:
 -	Click “3 Maven clean” 
 -	On “Build success” Click “6 Maven test”
 -	Double-click on the “index.html” file located in "target/cucumber-report/html/demo-webapp-functional-test-reports" to view Cucumber report.
 
 
 Option 2 : From the Command Line :
-From KDE, select “Start” icon, enter “Konsole” into the input box and then click on the “Konsole” icon. 
+From MATE Desktop, select top left menu "Applications" />/> "SystemTools" />/> MATE Terminal
 
-In the Konsole Window, type the command:
-cd /home/centos/workspace-demo/FR-Cucumber/
-Ensure the current directory is “FR-Cucumber” by using following command:
+In the MATE Terminal Window, type the command:
+cd /home/[user]/workspace-demo/Azure-FR-Cucumber-Ubuntu/
+Ensure the current directory is “Azure-FR-Cucumber-Ubuntu” by using following command:
 ls
  
 Run one of the following commands:
@@ -37,8 +38,8 @@ OR
   (This will run all the tests that tagged with @FUNCTIONAL and @REGRESSION)
   
 Using one of the browsers provided with the TEE, access the test report at:   
-file:///home/centos/workspace-demo/FR-Cucumber/target/cucumber-report/html/demo-webapp-functional-test-reports/index.html
+file:///home/[user]/workspace-demo/FR-Cucumber/target/cucumber-report/html/demo-webapp-functional-test-reports/index.html
 
 Cloning the Latest 
 The latest version of this demo test project can be cloned from github at:
-https://github.com/AWSMkt-TaaS/FR-Cucumber.
+https://github.com/WindowsAppsGroup/Azure-FR-Cucumber-Ubuntu
