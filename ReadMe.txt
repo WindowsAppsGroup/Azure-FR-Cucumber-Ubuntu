@@ -24,7 +24,7 @@ In the package explorer of the Eclipse IDE:
 
 
 Option 2 : From the Command Line :
-From MATE Desktop, select top left menu "Applications" >> "SystemTools" >> MATE Terminal
+From the Desktop, select top left menu "Applications" >> "SystemTools" >> MATE Terminal
 
 In the MATE Terminal Window, type the command:
 cd /home/[user]/workspace-demo/Azure-FR-Cucumber-Ubuntu/
