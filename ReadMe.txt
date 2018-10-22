@@ -13,7 +13,7 @@ https://cloudgps.astadia.com/apphub-azure-mp-tee-user-guide
 If you want to jump right in and run tests and view reports follow along below:
 
 Option 1: From the Eclipse IDE: 
-* [user] is the user created at the time of Virtual Machine Creation
+Note: [user] is the user created at the time of Virtual Machine Creation
 Click on Eclipse Neon icon and select the demo project “/home/[user]/workspace-demo/” (default)  
 
 In the package explorer of the Eclipse IDE:
