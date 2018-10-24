@@ -63,8 +63,8 @@ public class AppTestManager {
 			driver = new FirefoxDriver(RemoteWebDriverManager.getFirefoxOptions());
 		}
 		else {
-			//if not specified then use chrome
-			driver = new FirefoxDriver(RemoteWebDriverManager.getChromeOptions());
+			//if not specified then use firefox
+			driver = new FirefoxDriver(RemoteWebDriverManager.getFirefoxOptions());
 		}
 		Toolkit toolkit = Toolkit.getDefaultToolkit();
 		int Width = (int) toolkit.getScreenSize().getWidth();
